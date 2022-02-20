@@ -1,7 +1,7 @@
 {
   "name": "MarshallsNodeTodo",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "cli.js",
   "author": "Marshall3572",
   "license": "MIT",
   "dependencies": {
