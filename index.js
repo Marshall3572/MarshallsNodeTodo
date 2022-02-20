@@ -12,3 +12,13 @@ module.exports.add = async (title) => {
 module.exports.clear = async () => {
     await db.write([])
 }
+
+module.exports.showAll = async () => {
+    // 读取之前的任务
+    const list = await db.read()
+    if (JSON.stringify(list) === '[]') console.log('暂时没有任务要做')
+    // 打印之前的任务
+    list.forEach((task, index) => {
+        console.log(`${task.done ? '(x)' : '(_)'} ${index + 1} - ${task.title}`)
+    })
+}
