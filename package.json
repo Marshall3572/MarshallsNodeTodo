@@ -1,0 +1,10 @@
+{
+  "name": "MarshallsNodeTodo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Marshall3572",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}
