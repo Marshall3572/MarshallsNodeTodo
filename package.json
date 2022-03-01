@@ -10,9 +10,15 @@
   "main": "index.js",
   "author": "Marshall3572",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "commander": "^3.0.2",
     "inquirer": "^8.2.0",
     "nrm": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
