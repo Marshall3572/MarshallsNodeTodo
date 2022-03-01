@@ -1,11 +1,18 @@
 {
-  "name": "MarshallsNodeTodo",
+  "name": "marshalls-node-todo",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
   "version": "0.0.1",
-  "main": "cli.js",
+  "main": "index.js",
   "author": "Marshall3572",
   "license": "MIT",
   "dependencies": {
     "commander": "^3.0.2",
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "nrm": "^1.2.5"
   }
 }
